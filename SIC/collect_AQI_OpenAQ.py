@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta
 
 # Cấu hình API
-API_KEY = "94293c1db29d645954592ac27c56c63a5f9f35152eafb15d9a243fff982bc13d"
+API_KEY = ""#YOUR OPENAQ - API KEY 
 SENSOR_IDS = {  
     "pm25": 3920,
     "pm10": 3919,
@@ -65,7 +65,5 @@ while start_date <= end_date:
 df = pd.DataFrame(data_dict, index=dates)
 
 # Lưu dữ liệu vào CSV
-df.to_csv("openaq_hanoi_daily_052025.csv")
-print("✅ Đã thu thập và lưu dữ liệu thành công vào 'openaq_hanoi_daily_normalized_2024_2025.csv'")
-
-# 94293c1db29d645954592ac27c56c63a5f9f35152eafb15d9a243fff982bc13d
+df.to_csv("~~") #Your filename.csv
+#print("✅ Đã thu thập và lưu dữ liệu thành công vào 'filename.csv'")
