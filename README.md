@@ -1,2 +1,3 @@
 # SIC25_AI
-My team practices data mining and machine learning techniques.
+PROJECT : Air quality index (AQI) prediction
+-> My teams' practices data mining and machine learning techniques
